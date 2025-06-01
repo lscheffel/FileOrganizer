@@ -1,0 +1,79 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de log e temporários
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Diretórios de ambientes virtuais
+env/
+venv/
+.venv/
+ENV/
+.ENV/
+.pip/
+
+# Arquivos de pacotes instalados
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Distribuições
+*.whl
+*.tar.gz
+*.zip
+
+# Configurações do sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Configurações de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de execução standalone
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Arquivos de testes
+htmlcov/
+coverage.xml
+.tox/
+.nox/
+.cache/
+pytest_cache/
+.pytest_cache/
+
+# Banco de dados local
+*.sqlite3
+*.db
+
+# Chaves e arquivos sensíveis
+*.pem
+*.key
+*.crt
+*.env
+.env.*
+
+# Notebooks convertidos
+.ipynb_checkpoints/
+
+# Arquivos de lock de dependência (opcional)
+poetry.lock
+Pipfile.lock
+
+# Arquivos gerados por ferramentas específicas
+.mypy_cache/
+.pyre/
+.pytype/
